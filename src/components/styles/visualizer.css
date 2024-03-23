@@ -1,0 +1,38 @@
+.header {
+  display: flex;
+  padding: 20px 30px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-between;
+}
+
+.visualizer {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 100px;
+}
+
+.bars {
+  width: 10px;
+  background-color: #f46733;
+  margin-left: 4px;
+  display: inline-block;
+  border-radius: 10px;
+}
+
+.algoInfo {
+  gap: 100px;
+  display: flex;
+  margin-top: 20px;
+  align-items: center;
+  flex-direction: row;
+}
+
+.algoInfo p {
+  color: #151515;
+  font-size: 25px;
+  font-weight: 800;
+}

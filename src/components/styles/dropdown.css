@@ -1,0 +1,18 @@
+.dropdown {
+  border: 1px solid;
+  border-radius: 5px;
+  padding: 2px;
+}
+.dropdown select:hover {
+  cursor: pointer;
+}
+.dropdown select {
+  font-size: 1rem;
+  font-weight: normal;
+  padding: 10px;
+  border: none;
+  background-color: transparent;
+}
+.dropdown select:focus {
+  outline: none;
+}
